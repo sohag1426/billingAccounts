@@ -7,3 +7,11 @@
  * account_owner
    * Who owns the money in the account and will receive from account provider.
  
+### Only account provider can cash out from the account.
+
+### Each account must have proper Cash In and Cash Out transaction records. 
+
+### Dashboard Menu
+* Accounts
+  * Payable
+  * Receivable
