@@ -18,7 +18,7 @@
   * Receivable
   
  ### Collection Distribution
- 
+ * The Amount Distributed among the shareholder's is not the income of the shareholder's. The amount Cash out for the operator is the income of the operator.
  * Who is collecting money?
    * operator | Group Admin | Super Admin
    * If payment method is recharge or cash, the operator of the customer (Operator | Group Admin) is collecting money.
