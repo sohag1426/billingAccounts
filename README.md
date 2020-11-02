@@ -15,3 +15,13 @@
 * Accounts
   * Payable
   * Receivable
+  
+ ### Collection Distribution
+ 
+ * Who is collecting money?
+   * operator | Group Admin | Super Admin
+   * If payment method is recharge or cash, the operator of the customer (Operator | Group Admin) is collecting money.
+   * If Payment method is online, the merchant of the payment gateway (Operator | Group Admin | Super Admin) is collecting money.
+ * How the customer's payment will be distributed among shareholders.
+    * If payment Collector is operator
+      * Account Provider -> Operator
