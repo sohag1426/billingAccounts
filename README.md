@@ -9,7 +9,8 @@
  
 ###  # Only account provider can cash out from the account.
 
-###  # Each account must have proper Cash In and Cash Out transaction records. 
+###  # Each account must have proper Cash In and Cash Out transaction records.
+###  # Account's Module removes operator_price in package table, operators_bills and operators_payments table.
 
 ### Dashboard Menu
 * Accounts
