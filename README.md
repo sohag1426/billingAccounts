@@ -24,4 +24,31 @@
    * If Payment method is online, the merchant of the payment gateway (Operator | Group Admin | Super Admin) is collecting money.
  * How the customer's payment will be distributed among shareholders.
     * If payment Collector is operator
+      * If Operator != Group Admin
       * Account Provider -> Operator
+      * Account Owner -> Group Admin
+      * Amount = collection * ((100-operator's share)/100)
+      
+      * Account Provider -> Group Admin
+      * Account Owner -> Super Admin
+      * Amount = collection * (Super Admin's Share/100)
+      
+    * If Payment Collector is Group Admin
+      * If Group Admin != Operator
+      * Account Provider -> Group Admin
+      * Account Owner -> Operator
+      * Amount = collection * (Operator's Share/100)
+      
+      * Account Provider -> Group Admin
+      * Account Owner -> Super Admin
+      * Amount = collection * (Super Admin's Share/100)
+      
+    * If Payment Collector is Super Admin
+      * Account Provider -> Super Admin
+      * Account Owner -> Group Admin
+      * Amount = collection * ((100-Super Admin's Share)/100)
+      
+      * If Group Admin != Operator
+      * Account Provider -> Group Admin
+      * Account Owner -> Operator
+      * Amount = collection * (Operator's Share/100)
