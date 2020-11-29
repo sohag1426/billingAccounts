@@ -7,10 +7,15 @@
  * account_owner
    * Who owns the money in the account and will receive from account provider.
  
-###  # Only account provider can cash out from the account.
+###  # Account provider will send money to account owner.
+
+###  # Account owner needs to receive money sent by the account provider to complete the transaction.
+
+###  # The account owner can set how he wants to receive money (Settlement).
 
 ###  # Each account must have proper Cash In and Cash Out transaction records.
-###  # Account's Module removes operator_price in package table, operators_bills and operators_payments table.
+
+###  # Account's Module removes operator_price in package table, operators_bills and operators_payments table and operator type (prepaid/postpaid)
 
 ### Dashboard Menu
 * Accounts
