@@ -6,6 +6,12 @@
  
  * account_owner
    * Who owns the money in the account and will receive from account provider.
+   
+### There are two Types of account holder:
+  * debit/prepaid
+     * Who needs accounts balance from the account provider.
+  * credit/postpaid
+     * Who has a credit limit from the account provider.  
  
 ###  # Account provider will send money to account owner.
 
