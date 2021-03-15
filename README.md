@@ -13,8 +13,6 @@
 
 ###  # Each account must have proper Cash In and Cash Out transaction records.
 
-###  # Account's Module removes operator_price in package table, operators_bills and operators_payments table and operator type (prepaid/postpaid)
-
 ### Dashboard Menu
 * Accounts
   * Payable
